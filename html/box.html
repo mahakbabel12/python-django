@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box sizing </title>
+    <style>
+        *{
+             margin: 0;
+            padding: 0;
+        }
+        .container{
+            position: relative;
+            border:3px solid rgb(137, 11, 24);
+            height: 600px;
+            width: 800px;
+            background-color: rgba(234, 187, 99, 0.855);
+            left:325px;
+            top:60px;
+           
+        }
+        .item{
+            border:2px solid rgb(107, 63, 10);
+            height:200px;
+            width: 200px;
+            background-color: rgb(243, 178, 58);
+            border-radius: 5px;
+         }
+         h1{
+            padding:20px;
+            color: rgba(70, 28, 2, 0.814);
+         }
+         p{
+            padding: 20px;
+         }
+         .box1{
+            position: relative;
+            left: 0px;
+         }
+         .box2{
+            position: absolute;
+            left: 300px;
+            top: 0px;
+            height: 300px;
+        }
+        .box3{
+            position:absolute;
+            top: 0;
+            right: 0;
+        }
+        .box5{
+            position: absolute;
+            bottom:0px;
+            left:0;
+        }
+        .box4{
+            position: absolute;
+            bottom: 100px;
+            right: 0;
+        }
+        .box6{
+            position:absolute;
+            bottom:0;
+            left: 300px;
+        }
+       
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item box1">
+            <h1>One</h1>
+            <p>we can use CSS grid to overwrite older methods.</p>
+        </div>
+
+        
+            <div class="item box2">
+                <h1>Two</h1>
+                <p>we can use CSS grid to overwrite older methods.</p>
+                <p>we can use CSS grid to overwrite older methods.</p>
+            </div> 
+
+         
+            <div class="item box3">
+                    <h1>Three</h1>
+                    <p>we can use CSS grid to overwrite older methods.</p>
+            </div>  
+
+                
+            <div class="item box4">
+                        <h1>Four</h1>
+                        <p>we can use CSS grid to overwrite older methods.</p>
+            </div>  
+                    
+            <div class="item box5">
+                            <h1>Five</h1>
+                            <p>we can use CSS grid to overwrite older methods.</p>
+            </div> 
+            
+
+             <div class="item box6">
+                                <h1>Six</h1>
+                                <p>we can use CSS grid to overwrite older methods.</p>
+            </div>  
+                </div>
+   
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aligment</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family:cursive;
+        }
+        .container{
+            width: 900px;
+            border: 3px solid purple;
+             margin:auto; /*for making are container at center */
+             background-color: chartreuse;
+
+        }
+        .item{
+             border: 3px solid rgb(0, 255, 60);
+             margin: 12px 3px ;
+             padding:12px 3px;
+             background-color: rgb(188, 203, 203);
+        }
+        #fruit{
+            float: right;/* for changing the position*/
+            width: 48%;
+            
+        }
+        #computer{
+            float: left;
+            width: 48%;
+        }
+        #stationery{
+            /* float: left; */
+            clear: left;
+            width: 100%;
+        }
+        p,h3{
+            text-align: center;/* right left bhi kr skte h*/
+            text-align: justify;
+        }
+        img{
+            height: 105px;
+            width: 400px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <h1><center>WELCOME TO MY SHOP</center></h1>
+        
+        
+        <div id="fruit" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitpara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, corrupti repellendus reiciendis eligendi nam vitae cupiditate fuga nihil id ad expedita illo odit. Eaque numquam sequi quaerat tenetur cupiditate culpa.
+               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum labore natus dolores quidem alias tempora adipisci aliquam delectus. Reprehenderit veritatis velit sint pariatur enim voluptate aliquam asperiores rem. Delectus, quisquam! 
+            </p>
+            <img src="https://www.healthyeating.org/images/default-source/home-0.0/nutrition-topics-2.0/general-nutrition-wellness/2-2-2-3foodgroups_fruits_detailfeature.jpg?sfvrsn=64942d53_4" alt="">
+        </div>
+
+        <div id="computer" class="item">
+            <h3>computer</h3>
+            <p id="comppara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, corrupti repellendus reiciendis eligendi nam vitae cupiditate fuga nihil id ad expedita illo odit. Eaque numquam sequi quaerat tenetur cupiditate culpa.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, iusto saepe, eum dolorem obcaecati recusandae doloribus sunt numquam architecto, repellat quo facilis quis minima ipsam error perferendis perspiciatis voluptatem iure.
+            </p>
+        </div>
+
+        <div id="stationery" class="item">
+        <h3>stationery</h3>
+            <p id="stationerypara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, corrupti repellendus reiciendis eligendi nam vitae cupiditate fuga nihil id ad expedita illo odit. Eaque numquam sequi quaerat tenetur cupiditate culpa.
+
+            </p>
+        </div>
+
+        <div id="glass" class="item">
+            <h3>glass</h3>
+                <p id="glasspara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, corrupti repellendus reiciendis eligendi nam vitae cupiditate fuga nihil id ad expedita illo odit. Eaque numquam sequi quaerat tenetur cupiditate culpa.
+    
+                </p>
+            </div>
+    </div>
+    
+</body>
+</html>

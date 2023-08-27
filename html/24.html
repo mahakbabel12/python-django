@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 1000vh;
+        }
+        .container{
+            height: 200px;
+            width: 200px;
+            margin: 5px;      
+            display: inline-block; 
+            text-align: center;
+            font-size: 100px;
+            background-color: black;
+            color: aliceblue;
+            position: fixed;
+         }
+         
+         #container_2{
+           position:fixed;
+           right: 0px;
+           bottom: 0px;
+
+            }
+         
+    </style>
+</head>
+<body>
+      <!-- positions= for shifting things
+    5 types position static,relative,absolute,fixed,sticky
+    by default=static 
+
+   position: absolute;
+            left: 0px;
+            bottom: 0px;-->
+
+    <div class="container" style="background-color: red;">1</div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam consectetur nesciunt obcaecati perferendis, illum ex ea aut autem quae assumenda, odit ut animi deserunt ipsam harum minima architecto provident? Deserunt?</p>
+    <div class="container"id="container_2">2</div>
+    <div class="container" style="background-color: blue;">3</div>
+    <div class="container">4</div>
+</body>
+</html>
