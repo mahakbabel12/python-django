@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 200px;
+            width: 200px;
+            background-color: black;
+            animation-duration: 2s;
+            animation-name: mahak;
+            animation-iteration-count: 3;
+        }
+        @keyframes mahak {
+            from{
+                width: 100px;
+                background-color: brown;
+                border-radius: 50px;
+                height: 200px;
+            }
+            to{
+                width: 1400px;
+                background-color: blue;
+                border-radius: 250px;
+                height: 900px;
+                left: 150px;
+            }
+        }
+
+        .box2{
+            animation-name: mahak1;
+            animation-duration: 5s;
+            position: absolute;
+            top: 0px;
+            height: 200px;
+            width: 200px;
+            background-color: black;
+       
+        }
+        @keyframes mahak1 {
+            0%{
+                top: 0px;
+                left: 0px;
+
+            }
+            25%{
+                left: 400px;
+                top: 0;
+                border-radius: 250px;
+                background-color: blueviolet;
+            }
+            50%{
+                left: 400px;
+                top: 400px;
+                border-radius: 10px;
+                background-color: yellow;
+            }
+            75%{
+                left: 1200px;
+                top: 400px;
+                border-radius: 250px;
+                background-color: brown;
+            }
+            100%{
+                left: 0px;
+                top:0px ;
+                border-radius: 250px;
+                background-color: aqua;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class=" box box2"></div>
+
+    
+</body>
+</html>
